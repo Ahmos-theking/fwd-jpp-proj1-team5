@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div id="title">
+        <a href="http://homePage" id="siteName">E-commerce Website Name <span>&#9731;</span> </a>
+
+    </div>
+<section class="sign_up">
+    <h1 class="header">Create account</h1>
+    <form action="">
+        <div class="userName">
+            <label for="ap_customer_name" class="">Your name</label>
+            <input type="text" maxlength="50" id="ap_customer_name" autocomplete="name" name="customerName" tabindex="1" class="" placeholder="enter your name">
+        </div>
+        <div class="Mobile">
+            <label for="ap_mobile_number" class="">Mobile number</label>
+            <input type="text" maxlength="50" id="ap_mobile_number" name="mobileNumber" tabindex="1" class="" placeholder="enter your mobile Number ">
+        </div>
+        <div class="Email">
+            <label for="ap_email" class="">Email</label>
+            <input type="email" maxlength="50" id="ap_email" name="email" tabindex="1" class="" placeholder="enter a valid email ">
+        </div>
+        <div class="password">
+            <label for="ap_password" class=""> Password</label>
+            <input type="password" maxlength="1024" id="ap_password"  placeholder="" name="password" tabindex="5" class="" aria-autocomplete="list">
+            <div class="alret">
+            <i class="alret">
+               <strong>i</strong> Passwords must be at least 6 characters.
+            </i>
+            </div>
+        </div>
+        <div class="password_check">
+            <label for="ap_password_check" class="a-form-label">Re-enter password </label>
+            <input type="password" maxlength="1024" id="ap_password_check" autocomplete="off" name="passwordCheck" tabindex="6" class="">
+        </div>
+        <div class="submeit">
+            <label for="submit-btn" class=""></label>
+            <button type="submit" id="submit-btn" class="">continue</button>
+        </div>
+    </form>
+    <div class="have_account">
+        Already have an account? <a href="#login">sign in</a>
+    </div>
+</section>
+</body>
+</html>
+
